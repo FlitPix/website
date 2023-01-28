@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="author" content="FlitPix">
+        <meta name="description" content="FlitPix's public portfolio website">
+        <meta name="keywords" content="Flit, FlitPix, programming, Java, Python, Pokemon, Pokémon">
+        <title>FlitPix</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦊</text></svg>">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            #index {
+                flex: 1;
+                justify-content: center;
+                align-items: center;
+            }
+            #hiya {font-size: 2em; margin-top: 0; margin-bottom: 0;}
+            #desc {font-size: 1.15em; margin-top: 0.5em;}
+
+            @media only screen and (max-width: 600px) {
+                #index {flex-direction: column;}
+                #hiya {margin-top: 0.5em;}
+                #hiya,#desc {text-align: center; margin-right: 0.5em;}
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+        </header>
+        <div id="index" class="center">
+            <img id="pfp" src="assets/images/pix.jpg" alt="Kantonian Vulpix">
+            <div>
+                <p id="hiya">Hiya, I'm Flit!</p>
+                <p id="desc">22 years old<br>Computer Technology, Programmer,<br>Recreational Writer</p>
+            </div>
+        </div>
+        <footer>
+            <div class="badges">
+                <a href="https://yesterweb.org/no-to-web3/" target="_blank"><img alt="A button that says 'Keep the web free, say no to web3'" style="border:1px solid #ffe7c7;" src="https://yesterweb.org/no-to-web3/img/roly-saynotoweb3.gif"></a>
+            </div>
+            <div class="socials">
+                <a rel="me" href="https://guild.pmdcollab.org/@flit"><iconify-icon icon="mdi:mastodon" title="Mastodon"></iconify-icon></a>
+                <a href="https://flitpix.tumblr.com/"><iconify-icon icon="ri:tumblr-fill" title="Tumblr"></iconify-icon></a>
+                <a href="https://discord.com/users/114899955575029765"><iconify-icon icon="ic:baseline-discord" title="Discord"></iconify-icon></a>
+                <a href="https://github.com/FlitPix"><iconify-icon icon="mdi:github" title="GitHub"></iconify-icon></a>
+                <a href="https://steamcommunity.com/id/flitpix/"><iconify-icon icon="mdi:steam" title="Steam"></iconify-icon></a>
+                <a href="mailto:malikth32@gmail.com"><iconify-icon icon="ic:baseline-email" title="Email"></iconify-icon></a>
+            </div>
+            <p>Pokémon © 2002-2023 Pokémon. © 1995-2023 Nintendo/Creatures Inc./GAME FREAK inc. TM, ® and Pokémon character names are trademarks of Nintendo.<br>
+                All other content and project contributions © 2023 FlitPix.</p>
+        </footer>
+    </body>
+</html>

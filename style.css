@@ -1,0 +1,102 @@
+* {
+    background-color: #291500;
+    color: #ffe7c7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    margin-bottom: 0.3em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    margin: 15px 30px 15px 30px;
+    padding: 0;
+}
+
+header a:hover:not(.active) {color: #ffd092;}
+
+.active {color: white;}
+
+.center {align-items: center;}
+
+#index {
+    display: flex;
+    flex-direction: row;
+}
+
+#index div {padding-left: 20pt;}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#pfp {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 10pt;
+}
+
+footer p {
+    margin-top: 0.5em;
+}
+
+.socials {font-size: 2.5em;}
+
+.socials a {text-decoration: none;}
+
+.badges {
+    margin: 0.75em;
+}
+
+@media only screen and (max-width: 800px) {
+    header a {margin:15px;}
+    
+    .center h1 {padding: 0;}
+
+    .main {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .main h1 {text-align: center;}
+}
+
+@media only screen and (max-width: 1250px) {
+    .main {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
