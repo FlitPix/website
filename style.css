@@ -75,7 +75,7 @@ footer p {
 
 .socials {font-size: 2.5em;}
 
-.socials a {text-decoration: none;}
+.socials a {text-decoration: none; margin: 0.25em;}
 
 .badges {
     margin: 0.75em;
@@ -92,6 +92,10 @@ footer p {
     }
 
     .main h1 {text-align: center;}
+
+    .socials a {
+        margin: 0.05em;
+    }
 }
 
 @media only screen and (max-width: 1250px) {
