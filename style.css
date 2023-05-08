@@ -20,6 +20,10 @@ h1 {
     margin-bottom: 0.3em;
 }
 
+h2 {
+    margin-bottom: 0.3em;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -39,13 +43,6 @@ header a:hover:not(.active) {color: #ffd092;}
 
 .center {align-items: center;}
 
-#index {
-    display: flex;
-    flex-direction: row;
-}
-
-#index div {padding-left: 20pt;}
-
 .main {
     flex: 1;
     display: flex;
@@ -55,11 +52,35 @@ header a:hover:not(.active) {color: #ffd092;}
     padding-right: 10em;
 }
 
+/* Index page specific styling start */
+
+#index {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#index div {padding-left: 20pt;}
+
 #pfp {
     max-width: 250px;
     height: 250px;
     border-radius: 125px;
 }
+
+#hiya {font-size: 2em; margin-top: 0; margin-bottom: 0;}
+
+#desc {font-size: 1.15em; margin-top: 0.5em;}
+
+@media only screen and (max-width: 600px) {
+    #index {flex-direction: column;}
+    #hiya {margin-top: 0.5em;}
+    #hiya,#desc {text-align: center; margin-right: 0.5em;}
+}
+
+/* Index page specific styling end */
 
 footer {
     flex-shrink: 0;
@@ -104,3 +125,4 @@ footer p {
         padding-right: 2em;
     }
 }
+
