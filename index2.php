@@ -25,10 +25,10 @@ $title = $site_title;
                 <p>My pronouns are <b>they/them</b>. I'm <b>24 years old</b>, my birthday is on <b><a href="https://en.wikipedia.org/wiki/Earth_Day">Earth Day</a></b>, and I'm on the <b>Autism spectrum</b>. I like messing around with open source software, sometimes providing feedback, and always trying to learn new things. Linux is fun to mess around with! Video games are also really fun despite me not playing them as much recently - <b>Poke&#769;mon</b> is by far my biggest hyperfixation, with Sonic being a close second, though I pretty much try to play everything.</p>
 
                 <h3>Where you can find me</h3>
-                <p>Of course, this website isn't all the Internet has to offer, so here's some of the other places you can find me. You can find more at my <a href="links.php">Links</a> page.</p>
+                <p>Of course, this website isn't all the Internet has to offer, so here's some of the other places you can find me. You can find more at my <a href="links.php">Links</a> and <a href="/contact.php">Contact</a> pages.</p>
                 <ul>
+                    <li><a href="https://invite.joinjabber.org/#flit@chat.flitpix.net">flit@chat.flitpix.net on XMPP/Jabber</a></li>
                     <li><a href="https://github.com/FlitPix" rel="me">FlitPix on GitHub</a></li>
-                    <li><a href="mailto:malikth32@gmail.com" rel="me">malikth32@gmail.com via Email/DeltaChat</a></li>
                 </ul>
 
                 <h3>Cool people</h3>

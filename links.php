@@ -22,6 +22,12 @@ $title = 'Links - ' . $site_title;
                 <p>I'm generally able to be found all around the Internet, not just here! This page lists all of the places where you might be able to find me online - webgames, forums, pretty much anything!</p>
                 <p>Please note that, unless I specify otherwise, I am <em>not</em> open to friend requests unless I've chatted with you.</p>
 
+                <h3>Development</h3>
+                <p>Code development, usually git.</p>
+                <ul>
+                    <li><b>GitHub:</b> <a href="https://github.com/FlitPix" rel="me">FlitPix</a></li>
+                </ul>
+
                 <h3>Social</h3>
                 <p>Social media, forums, and instant messaging.</p>
                 <div style="display: block;">
