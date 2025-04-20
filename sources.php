@@ -98,7 +98,7 @@ $title = 'Sources - ' . $site_title;
                             <img src="/images/buttons/right2repair.png" alt="Right to Repair button">
                         </td>
                         <td><p>Various images.</p></td>
-                        <td><p><strong>I don't know!</strong> This table row is all things I took from elsewhere that I don't know the source to.<br>If you are or know the creator, please <a href="/contact.html">contact me</a>!</p></td>
+                        <td><p><strong>I don't know!</strong> This table row is all things I took from elsewhere that I don't know the source to.<br>If you are or know the creator, please <a href="/contact.php">contact me</a>!</p></td>
                     </tr>
                 </table>
 

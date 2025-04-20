@@ -34,7 +34,7 @@ $title = $site_title;
                 </ul>
 
                 <h3>Cool people</h3>
-                <p>I've met these people on various online communities and want to give them a shoutout. Go check them out, give them a follow, maybe commission them if they have those? (If I'm particularly close to you and you're not listed here, or if you have a button/stamp you'd like for me to put here instead, don't hesitate to reach out to me.)</p>
+                <p>I've met these people on various online communities and want to give them a shoutout. Go check them out, give them a follow, maybe commission them if they have those? (If I'm particularly close to you and you're not listed here, or if you have a button/stamp you'd like for me to put here instead, don't hesitate to <a href="/contact.php">reach out to me</a>.)</p>
                 <ul>
                     <li><a href="https://alphabooks.carrd.co/">Alpha Books</a> <b>(ALERT: It is homeless and needs financial support!)</b></li>
                     <li><a href="https://whimsicott.gay/">cat</a></li>
