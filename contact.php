@@ -1,5 +1,5 @@
 <?php
-require('includes/globals.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/globals.php');
 $title = 'Contact - ' . $site_title;
 ?>
 
@@ -7,15 +7,13 @@ $title = 'Contact - ' . $site_title;
 <html lang="en">
     <head>
         <title><?php echo $title; ?></title>
-        <?php require('includes/head.php'); ?>
+        <?php require($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
         <meta name="og:title" content="<?php echo $title; ?>">
     </head>
     
     <body>
         <div id="wrap">
-            <?php
-            include('includes/navbar.php');
-            ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/navbar.php'); ?>
 
             <div id="main">
                 <h2>Contact</h2>
@@ -27,7 +25,7 @@ $title = 'Contact - ' . $site_title;
                     <li><b>Matrix:</b> <a href="https://matrix.to/#/@flitpix:matrix.org">@flitpix:matrix.org</a></li>
                 </ul>
             </div>
-            <?php include('includes/footer.php');?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
         </div>
     </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-require('includes/globals.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/globals.php');
 $title = 'Copyright - ' . $site_title;
 ?>
 
@@ -7,14 +7,14 @@ $title = 'Copyright - ' . $site_title;
 <html lang="en">
     <head>
         <title><?php echo $title; ?></title>
-        <?php require('includes/head.php'); ?>
+        <?php require($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
         <meta name="og:title" content="<?php echo $title; ?>">
     </head>
 
     <body>
         <div id="wrap">
             <?php
-            include('includes/navbar.php');
+            include($_SERVER['DOCUMENT_ROOT'] . '/includes/navbar.php');
             ?>
 
             <div id="main">
@@ -28,7 +28,7 @@ $title = 'Copyright - ' . $site_title;
                 <p>Poke&#769;mon &copy; 2002-<?php echo date("Y"); ?> Poke&#769;mon. &copy; 1995-<?php echo date("Y"); ?> Nintendo/Creatures Inc./GAME FREAK inc. &trade;, &reg; and Poke&#769;mon character names are trademarks of Nintendo.</p>
             </div>
             
-            <?php include('includes/footer.php');?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
         </div>
     </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-require('includes/globals.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/globals.php');
 $title = $site_title;
 ?>
 
@@ -7,7 +7,7 @@ $title = $site_title;
 <html lang="en">
     <head>
         <title><?php echo $title; ?></title>
-        <?php require('includes/head.php'); ?>
+        <?php require($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
         <meta name="og:title" content="<?php echo $title; ?>">
 
         <style>
@@ -39,11 +39,11 @@ $title = $site_title;
 
             <div id="index">
                 <h1>FlitPix</h1>
-                <a href="index2.php"><img src="images/vulpix-pfp.png" alt="A pixel-art portrait of a Vulpix" height="200" width="200"></a>
+                <a href="/index2.php"><img src="/images/vulpix-pfp.png" alt="A pixel-art portrait of a Vulpix" height="200" width="200"></a>
                 <p>Boop the pix to enter...</p>
             </div>
 
-            <?php include('includes/footer.php');?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php');?>
         </div>
     </body>
 </html>

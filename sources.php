@@ -1,5 +1,5 @@
 <?php
-require('includes/globals.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/globals.php');
 $title = 'Sources - ' . $site_title;
 ?>
 
@@ -7,15 +7,13 @@ $title = 'Sources - ' . $site_title;
 <html lang="en">
     <head>
         <title><?php echo $title; ?></title>
-        <?php require('includes/head.php'); ?>
+        <?php require($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
         <meta name="og:title" content="<?php echo $title; ?>">
     </head>
     
     <body>
         <div id="wrap">
-            <?php
-            include('includes/navbar.php');
-            ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/navbar.php'); ?>
 
             <div id="main">
                 <h2>Sources</h2>
@@ -106,7 +104,7 @@ $title = 'Sources - ' . $site_title;
                 <p>TODO. For now, credit can be found in the source code if it was made by someone else.</p>
             </div>
             
-            <?php include('includes/footer.php');?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
         </div>
     </body>
 </html>

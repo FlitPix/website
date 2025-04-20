@@ -1,5 +1,5 @@
 <?php
-require('includes/globals.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/includes/globals.php');
 $title = 'Links - ' . $site_title;
 ?>
 
@@ -7,17 +7,15 @@ $title = 'Links - ' . $site_title;
 <html lang="en">
     <head>
         <title><?php echo $title; ?></title>
-        <?php require('includes/head.php'); ?>
+        <?php require($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
         <meta name="og:title" content="<?php echo $title; ?>">
 
-        <script src="scripts/funcs.js"></script>
+        <script src="/scripts/funcs.js"></script>
     </head>
     
     <body>
         <div id="wrap">
-            <?php
-            include('includes/navbar.php');
-            ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/navbar.php'); ?>
 
             <div id="main">
                 <h2>Links</h2>
@@ -67,7 +65,7 @@ $title = 'Links - ' . $site_title;
                 </ul>
             </div>
             
-            <?php include('includes/footer.php');?>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
         </div>
     </body>
 </html>
