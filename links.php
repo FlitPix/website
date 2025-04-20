@@ -40,7 +40,7 @@ $title = 'Links - ' . $site_title;
                 <ul>
                     <li><b>Akkoma:</b> I used to host my own Akkoma server at @flit@akkoma.flitpix.net. Unfortunately, querying the database trashed it... not sure how that happened. I might look into managed hosting in the future, if I decide to keep using social media.</li>
                     <li><b>Mastodon:</b> Before using Akkoma, I used Mastodon at <a href="https://guild.pmdcollab.org/@flit">@flit@guild.pmdcollab.org</a>.</li>
-
+                </ul>
                 <h3>Games</h3>
                 <p>Did you know I play video games? It's true!!</p>
                 <div style="display: block;">
