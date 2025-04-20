@@ -5,7 +5,6 @@
         <li class="nav-item"><a href="links.php">Links</a></li>
         <li class="nav-item"><a href="projects.php">Projects</a></li>
         <li class="nav-item"><a href="ocs.php">Characters</a></li>
-        <li class="nav-item"><a href="otherstuff.php">Other Stuff</a></li>
         <li class="nav-item"><a href="sources.php">Sources</a></li>
         <li class="nav-item"><a href="contact.php">Contact</a></li>
     </ul>
