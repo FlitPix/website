@@ -23,7 +23,18 @@ $title = $site_title;
     <body>
         <div id="wrap">
             <div id="webrings">
-                
+                <div class="webring" id="fediring">
+                    <table>
+                        <tr>
+                            <td class="webring-prev"><a href="https://fediring.net/previous?host=flitpix.net">←</a></td>
+                            <td class="webring-info">
+                                <a href="https://fediring.net/"><img src="/images/buttons/fediring.gif" alt="Fediring"></a>
+                                <a class="webring-links" href="https://fediring.net/random">random</a>
+                            </td>
+                            <td class="webring-next"><a href="https://fediring.net/next?host=flitpix.net">→</a></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
             <div id="index">
