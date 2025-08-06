@@ -28,14 +28,14 @@ $title = 'Sources - ' . $site_title;
                         <th>Source</th>
                     </tr>
                     <tr>
-                        <td class="td_images"><img src="/images/vulpix-pfp.png" width="50px" alt=""></td>
-                        <td><p>Pixel art of Vulpix, from the Poke&#769;mon Mystery Dungeon games on GBA and DS. Used on the <a href="/index.html">landing page</a>.</p></td>
-                        <td><p>Made by Chunsoft for the official games, taken from the <a href="https://sprites.pmdcollab.org/">SpriteCollab</a> project. I upscaled it to fit on the site and for other things.</p></td>
+                        <td class="td_images"><img src="/images/bird-pfp.png" width="50px" alt=""></td>
+                        <td><p>A eurasian magpie. Used on the <a href="/index.html">landing page</a>.</p></td>
+                        <td><p>Taken by Alan Schmierer and <a href="https://flic.kr/p/KPRdU5">published</a> into the <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">public domain</a>. Cropped for use on the front page.</p></td>
                     </tr>
                     <tr>
                         <td class="td_images"><img src="/images/vulpix-pixel.png" alt=""></td>
-                        <td><p>Pixel art of Vulpix, from Poke&#769;mon Sword and Shield on Nintendo Switch. Used as the favicon, and in the footer of every page.</p></td>
-                        <td><p>Made by someone in GAME FREAK or Creatures Inc. for the official games.</p></td>
+                        <td><p>Pixel art of Vulpix, from Poke&#769;mon Sword and Shield on Nintendo Switch. Used in the footer of every page for the <a href="https://pkmn.caelestis.nu/">I Choose You!</a> clique.</p></td>
+                        <td><p>Made by someone in GAME FREAK or Creatures Inc. for the core series Poke&#769;mon games.</p></td>
                     </tr>
                     <tr>
                         <td class="td_images"><img src="/images/buttons/firefox1.gif" alt="Firefox button"></td>
@@ -99,9 +99,6 @@ $title = 'Sources - ' . $site_title;
                         <td><p><strong>I don't know!</strong> This table row is all things I took from elsewhere that I don't know the source to.<br>If you are or know the creator, please <a href="/contact.php">contact me</a>!</p></td>
                     </tr>
                 </table>
-
-                <h3>Scripts</h3>
-                <p>TODO. For now, credit can be found in the source code if it was made by someone else.</p>
             </div>
             
             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

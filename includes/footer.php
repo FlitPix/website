@@ -19,7 +19,7 @@
     </div>
     <div id="footer_legal">
         <p>
-            All original content &copy; <?php echo date("Y"); ?> FlitPix.
+            All original content &copy; <?php echo "2023-" . date("Y"); ?> FlitPix.
             <?php
             if ($_SERVER['PHP_SELF'] != '/copyright.php')
                 echo 'For more copyright information, click <a href="copyright.php">here</a>.';

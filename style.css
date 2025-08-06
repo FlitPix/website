@@ -1,13 +1,13 @@
 /* GLOBALS */
 
 * {
-    scrollbar-color: #ffc375 #ffdabc;
+    scrollbar-color: #9cb3ff #ffffff;
 }
 
 body {
     margin: 0;
-    background-color: #411d00;
-    color: #ffdabc;
+    background-color: #15184a;
+    color: #ffffff;
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,7 +20,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #ffc375;
+    color: #9cb3ff;
 }
 
 a:hover {
@@ -35,7 +35,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #dfba9c;
+    border: 1px solid #9cb3ff;
     vertical-align: middle;
     padding: 8px;
 }
@@ -104,7 +104,7 @@ th, td {
 }
 
 .webring table {
-    background-color: #411d00;
+    background-color: #15184a;
     margin: 0 auto; /* centers the widget */
 }
 

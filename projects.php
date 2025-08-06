@@ -20,11 +20,12 @@ $title = 'Projects - ' . $site_title;
                 <p>This will be spruced up later. For now, here's a decent list:</p>
                 <h2>Development</h2>
                 <ul>
-                    <li><strong><a href="https://talesofcelestia.com/">PMD: Tales of Celestia</a></strong> - A public <a href="https://www.phpbb.com/">phpBB</a> forum board for Pokémon Mystery Dungeon roleplay!</li>
+                    <li><b><a href="https://talesofcelestia.com/">PMD: Tales of Celestia</a></b> - This was a public <a href="https://www.phpbb.com/">phpBB</a> forum board for Poke&#769;mon Mystery Dungeon roleplay. It's since been decommissioned.</li>
                 </ul>
                 <h2>Writing</h2>
                 <ul>
-                    <li><strong><a href="https://toyhou.se/~literature/162744.another-day-another-mission">Another Day, Another Mission...</a></strong> - A oneshot gift for <a href="https://gyro.tech/card">GyroTech</a>, made as part of <a href="https://discord.gg/PkmnWorkshop">Pokémon Workshop</a>'s Secret Santa 2022!</li>
+                    <li><b><a href="https://forum.flitpix.net/board/viewtopic.php?t=28">PMD: Will to Live</a></b> - My primary Poke&#769;mon Mystery Dungeon fanfiction.
+                    <li><b><a href="https://toyhou.se/~literature/162744.another-day-another-mission">Another Day, Another Mission...</a></b> - A oneshot gift for <a href="https://gyro.tech/card">GyroTech</a>, made as part of <a href="https://discord.gg/PkmnWorkshop">Poke&#769;mon Workshop</a>'s Secret Santa 2022!</li>
                 </ul>
             </div>
             

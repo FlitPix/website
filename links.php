@@ -20,16 +20,10 @@ $title = 'Links - ' . $site_title;
             <div id="main">
                 <h2>Links</h2>
                 <p>I'm generally able to be found all around the Internet, not just here! This page lists all of the places where you might be able to find me online - webgames, forums, pretty much anything!</p>
-                <p>Please note that, unless I specify otherwise, I am <em>not</em> open to friend requests unless I've chatted with you.</p>
-
-                <h3>Development</h3>
-                <p>Code development, usually git.</p>
-                <ul>
-                    <li><b>GitHub:</b> <a href="https://github.com/FlitPix" rel="me">FlitPix</a></li>
-                </ul>
+                <p>Please note that, unless I specify otherwise, I am <em>not</em> open to friend requests unless I've spoken with you previously.</p>
 
                 <h3>Social</h3>
-                <p>Social media, forums, and instant messaging.</p>
+                <p>Forums and instant messaging. I don't use social media anymore.</p>
                 <div style="display: block;">
                     <a href="https://matrix.to/#/@flitpix:matrix.org"><img src="/images/buttons/matrix.png" alt="Matrix button"></a>
                     <a href="https://spyware.neocities.org/articles/discord"><img src="/images/buttons/discord-no-way.gif" title="I have a Discord account, but it's not publicly available and I don't think people should use it." alt='"Discord? No Way!" button'></a>
@@ -44,7 +38,10 @@ $title = 'Links - ' . $site_title;
                 <ul>
                     <li><b>Akkoma:</b> I used to host my own Akkoma server at @flit@akkoma.flitpix.net. Unfortunately, querying the database trashed it... not sure how that happened. I might look into managed hosting in the future, if I decide to keep using social media.</li>
                     <li><b>Mastodon:</b> Before using Akkoma, I used Mastodon at <a href="https://guild.pmdcollab.org/@flit">@flit@guild.pmdcollab.org</a>.</li>
+                    <li><b>Twitter:</b> I <em>think</em> I used to be @MalikTH on Twitter. I've since deleted my account, as it was <a href="https://en.wikipedia.org/wiki/History_of_Twitter#Acquisition_by_Elon_Musk">acquired by Elon Musk</a> and rapidly began to decline in quality.</li>
+                    <li><b>Tumblr:</b> I used to be malikth on Tumblr. I've since deleted my account, as Tumblr was <a href="https://www.tumblr.com/thelegendofj/733638664457977856">censoring</a> <a href="https://www.tumblr.com/itsbansheebitch/739366073209618432">Palestine tags</a>.</li>
                 </ul>
+
                 <h3>Games</h3>
                 <p>Did you know I play video games? It's true!!</p>
                 <div style="display: block;">
@@ -54,20 +51,31 @@ $title = 'Links - ' . $site_title;
                 </div>
                 <ul>
                     <li><b>Nintendo Switch:</b> <a onclick="copy(this)">SW-0182-4828-7410</a></li>
-                    <li><b><a href="https://pmuniverse.net/">PMU</a>:</b> I play it sometimes!</li>
                     <li><b><a href="https://pokemonshowdown.com/">Poke&#769;mon Showdown</a>:</b> <a onclick="copy(this)">MalikTH</a>
                     <li><b>Epic Games:</b> <a href="https://store.epicgames.com/en-US/u/ee1bc03b34014a0f8ae99fdf6da0da38">FlitPix</a></li>
-                    <li><b>Battle.net:</b> <a onclick="copy(this)">MalikTH#1227</a></li>
-                    <li><b>Ubisoft:</b> <a onclick="copy(this)">MalikTH32</a></li>
+                    <li><b>Battle.net:</b> <a onclick="copy(this)">MalikTH#1227</a> (I only play Diablo II Resurrected)</li>
+                    <li><b>Ubisoft:</b> <a onclick="copy(this)">MalikTH32</a> (I rarely use this)</li>
                     <li><b>Poke&#769;mon GO:</b> MalikTH32 (<a onclick="copy(this)">5877 3457 4712</a>, Modern Vivillon, open to friend requests)</li>
                     <li><b>Minecraft:</b> <a href="https://namemc.com/profile/FlitPix.1">FlitPix</a></li>
                     <li><b><a href="https://www.factorio.com/">Factorio</a>:</b> <a onclick="copy(this)">FlitPix</a> (I don't play often)</li>
                     <li><b><a href="https://pokefarm.com/">Poke&#769;Farm Q</a>:</b> <a href="https://pokefarm.com/user/FlitPix" rel="me">FlitPix</a> (I don't play often)</li>
+                    <li><b>Roblox:</b> <a href="https://www.roblox.com/users/22697920/profile" rel="me">Flit (@XxMalikTHxX)</a> (I don't play often)</li>
+                    <li><b><a href="https://pmuniverse.net/">PMU</a>:</b> I don't play this too often, but it's here!</li>
                 </ul>
                 <h4>I don't play these anymore...</h4>
                 <ul>
                     <li><b>Poke&#769;mon Eclipse RPG:</b> I used to play as MalikTH, but I got IP banned for autoclicking, even though I never did anything like that. Never got a response to my appeal, which means it was either denied or just never looked at...</li>
-                    <li><b>Roblox:</b> I used to play as <a href="https://www.roblox.com/users/22697920/profile" rel="me">Flit (@XxMalikTHxX)</a>, but I can't anymore since it's been <a href="https://www.gamingonlinux.com/2024/03/game-over-for-roblox-on-linux-steam-deck-as-its-now-blocked/">blocked on Wine</a>.
+                </ul>
+
+                <h3>Wikis</h3>
+                <ul>
+                    <li><b>Bulbapedia:</b> <a href="https://bulbapedia.bulbagarden.net/wiki/User:FlitPix">FlitPix</a>
+                </ul>
+                
+                <h3>Coding</h3>
+                <p>Code development, usually for git repos.</p>
+                <ul>
+                    <li><b>GitHub:</b> <a href="https://github.com/FlitPix" rel="me">FlitPix</a></li>
                 </ul>
             </div>
             
