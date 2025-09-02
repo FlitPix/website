@@ -101,7 +101,6 @@ $title = 'Archipelago Multiworld Rules and Info - ' . $site_title;
                 <a id="sync"></a><h2>Sync Rules</h2>
                 <p>These rules only apply to syncs. They don't apply to asyncs.</p>
                 <ul>
-                    <li>See the <a href="#live-session">live session rules</a> above, since they apply to syncs.</li>
                     <li>The post that brought you to this page should list a starting time. That is the <em>time at which the multiworld will be generated.</em> This means you must join VC and post your YAML <em>prior</em> to the starting time. Any YAMLs posted <em>after</em> the starting time will be ignored, unless I say otherwise.</li>
                     <li>You may play up to three games in a single sync.</li>
                     <li>You <strong>must</strong> join VC. You don't have to use a microphone; if you don't, you must use the Archipelago text chat during the multiworld. Do not use Discord text channels, they likely won't be monitored.</li>
