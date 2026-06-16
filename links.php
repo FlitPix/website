@@ -55,8 +55,8 @@ $title = 'Links - ' . $site_title;
                     <li><b>Epic Games:</b> <a href="https://store.epicgames.com/en-US/u/ee1bc03b34014a0f8ae99fdf6da0da38">FlitPix</a></li>
                     <li><b>Battle.net:</b> <a onclick="copy(this)">MalikTH#1227</a> (I only play Diablo II Resurrected)</li>
                     <li><b>Ubisoft:</b> <a onclick="copy(this)">MalikTH32</a> (I rarely use this)</li>
-                    <li><b>Poke&#769;mon GO:</b> MalikTH32 (<a onclick="copy(this)">5877 3457 4712</a>, Modern Vivillon, open to friend requests)</li>
                     <li><b>Minecraft:</b> <a href="https://namemc.com/profile/FlitPix.1">FlitPix</a></li>
+                    <li><b>Hytale:</b> <a href="https://hytl.tools/profile/flit.1">Flit</a></li>
                     <li><b><a href="https://www.factorio.com/">Factorio</a>:</b> <a onclick="copy(this)">FlitPix</a> (I don't play often)</li>
                     <li><b><a href="https://pokefarm.com/">Poke&#769;Farm Q</a>:</b> <a href="https://pokefarm.com/user/FlitPix" rel="me">FlitPix</a> (I don't play often)</li>
                     <li><b>Roblox:</b> <a href="https://www.roblox.com/users/22697920/profile" rel="me">Flit (@XxMalikTHxX)</a> (I don't play often)</li>
@@ -65,11 +65,13 @@ $title = 'Links - ' . $site_title;
                 <h4>I don't play these anymore...</h4>
                 <ul>
                     <li><b>Poke&#769;mon Eclipse RPG:</b> I used to play as MalikTH, but I got IP banned for autoclicking, even though I never did anything like that. Never got a response to my appeal, which means it was either denied or just never looked at...</li>
+                    <li><b>Poke&#769;mon GO:</b> MalikTH32 (<a onclick="copy(this)">5877 3457 4712</a>, Modern Vivillon). There's not much around me so I haven't bothered playing in a while.</li>
                 </ul>
 
                 <h3>Wikis</h3>
                 <ul>
                     <li><b>Bulbapedia:</b> <a href="https://bulbapedia.bulbagarden.net/wiki/User:FlitPix">FlitPix</a>
+                    <li><b>Archipelago Wiki:</b> <a href="https://archipelago.miraheze.org/wiki/User:FlitPix">FlitPix</a>
                 </ul>
                 
                 <h3>Coding</h3>

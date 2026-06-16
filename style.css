@@ -45,6 +45,10 @@ th, td {
     margin: 3px auto;
 }
 
+li {
+    margin: 8px 0;
+}
+
 /* FLEXBOX */
 
 #wrap {
